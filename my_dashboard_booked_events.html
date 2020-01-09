@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, shrink-to-fit=9">
+		<meta name="description" content="Gambolthemes">
+		<meta name="author" content="Gambolthemes">
+		<title>EnterViews - Booked Events</title>
+		
+		<!-- Favicon Icon -->
+		<link rel="icon" type="image/png" href="images/logo-black.png">
+		
+		<!-- Stylesheets -->
+		<link href="css/responsive.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/datepicker.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+		<link href="vendor/OwlCarousel/assets/owl.carousel.css" rel="stylesheet">
+		<link href="vendor/OwlCarousel/assets/owl.theme.default.min.css" rel="stylesheet">			
+	    <link href="css/edit.css" rel="stylesheet">
+        
+	</head>
+
+	<body>		
+		<!-- Header Start -->
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<nav class="navbar navbar-expand-lg navbar-light bg-dark1 justify-content-sm-start">
+							<a class="nav-logo order-1 order-lg-0 ml-lg-0 ml-3 mr-auto" href="activities.html">
+                                <img src="images/logo-original.png" alt="Enterviews" class="img-fluid">
+                            </a>
+							<button class="navbar-toggler align-self-start" type="button">
+								<i class="fas fa-bars"></i>
+							</button>
+							<div class="collapse navbar-collapse d-flex flex-column flex-lg-row flex-lg-row justify-content-lg-end bg-dark1 p-3 p-lg-0 mt1-5 mt-lg-0 mobileMenu" id="navbarSupportedContent">
+								<ul class="navbar-nav align-self-stretch">
+									<li class="nav-item">
+										<a class="nav-link" href="index.html">Jobs <span class="sr-only">(current)</span></a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="discussions.html">News</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="weather.html">Meet Us</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="our_blog.html">Ranking</a>
+									</li>
+                                    <li class="nav-item dropdown profile-section">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          <span>Profile</span>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="my_dashboard_activity.html">Activity</a>
+                                            <a class="dropdown-item" href="my_dashboard_about.html">About</a>
+                                            <a class="dropdown-item" href="my_dashboard_followers.html">Followers</a>
+                                            <a class="dropdown-item" href="my_dashboard_following.html">Following</a>
+                                            <a class="dropdown-item" href="my_dashboard_messages.html">Messages</a>
+                                            <a class="dropdown-item" href="my_dashboard_booked_events.html">Booked Events</a>  
+                                            <a class="dropdown-item" href="my_dashboard_history.html">History</a>
+                                        </div>
+
+                                    </li>
+								</ul>
+								<a href="add_new_event.html" class="add-event"><i class="fas fa-book-open"></i> &nbsp; Courses </a>
+							</div>
+							
+							<ul class="group-icons">
+								<li><a href="search_result.html" class="icon-set"><i class="fas fa-search"></i></a></li>
+								<li class="dropdown">
+									<a href="#" class="icon-set dropdown-toggle-no-caret" role="button" data-toggle="dropdown">
+										<i class="fas fa-users"></i>
+									</a>
+									<div class="dropdown-menu user-request-dropdown dropdown-menu-right">
+										<div class="user-request-list">
+											<div class="request-users">
+												<div class="user-request-dt">
+													<a href="#"><div class="img"></div>
+														<div class="user-title1">Ahmed Hiekal </div>
+														<span>is now following you</span>
+													</a>
+												</div>
+												<div class="time5">2 min ago</div>
+											</div>
+										</div>
+										<div class="user-request-list">
+											<div class="request-users">
+												<div class="user-request-dt">
+													<a href="#"><div class="img"></div>
+														<div class="user-title1">Hamdy Ahmed</div>
+														<span>is now following you</span>
+													</a>
+												</div>
+												<div class="time5">5 min ago</div>
+											</div>
+										</div>
+										<div class="user-request-list">
+											<div class="request-users">
+												<div class="user-request-dt">
+													<a href="#"><div class="img"></div>
+														<div class="user-title1">Mohamed Teleb</div>
+														<span>is now following you</span>
+													</a>
+												</div>
+												<div class="time5">10 min ago</div>
+											</div>
+										</div>
+										<div class="user-request-list">
+											<a href="my_dashboard_followers.html" class="view-all">View All Followers</a>
+										</div>
+									</div>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="icon-set dropdown-toggle-no-caret" role="button" data-toggle="dropdown">
+										<i class="fas fa-comments"></i>
+									</a>
+									<div class="dropdown-menu message-dropdown dropdown-menu-right">
+										<div class="user-request-list">
+											<div class="request-users">
+												<div class="user-request-dt">
+													<a href="#"><div class="img"></div>
+														<div class="user-title1">Ebdco Technology </div>
+														<span>We have a concern about yo</span>
+													</a>
+												</div>
+												<div class="time5">2 min ago</div>
+											</div>
+										</div>
+										<div class="user-request-list">
+											<div class="request-users">
+												<div class="user-request-dt">
+													<a href="#"><div class="img"></div>
+														<div class="user-title1">Coca Cola</div>
+														<span>You're perfect for the position</span>
+													</a>
+												</div>
+												<div class="time5">5 min ago</div>
+											</div>
+										</div>
+										<div class="user-request-list">
+											<div class="request-users">
+												<div class="user-request-dt">
+													<a href="#"><div class="img"></div>
+														<div class="user-title1">Apple</div>
+														<span>Hey Muhamad,you have an in </span>
+													</a>
+												</div>
+												<div class="time5">10 min ago</div>
+											</div>
+										</div>
+										<div class="user-request-list">
+											<a href="my_dashboard_messages.html" class="view-all">View All Messages</a>
+										</div>
+									</div>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="icon-set dropdown-toggle-no-caret" role="button" data-toggle="dropdown">
+										<i class="fas fa-bell"></i>
+									</a>
+									<div class="dropdown-menu notification-dropdown dropdown-menu-right">
+										<div class="user-request-list">
+											<div class="request-users">
+												<div class="user-request-dt">
+													<a href="#"><div class="img"></div>
+														<div class="user-title1">Apple</div>
+														<span>Your request has been accepted.</span>
+													</a>
+												</div>
+												<div class="time5">2 min ago</div>
+											</div>
+										</div>
+										<div class="user-request-list">
+											<div class="request-users">
+												<div class="user-request-dt">
+													<a href="#"><div class="img"></div>
+														<div class="user-title1">Ebdco Technology</div>
+														<span>Your application has been short.</span>
+													</a>
+												</div>
+												<div class="time5">5 min ago</div>
+											</div>
+										</div>
+										<div class="user-request-list">
+											<div class="request-users">
+												<div class="user-request-dt">
+													<a href="#"><div class="img"></div>
+														<div class="user-title1">Coca Cola</div>
+														<span>Your application has been short.</span>
+													</a>
+												</div>
+												<div class="time5">10 min ago</div>
+											</div>
+										</div>
+										<div class="user-request-list">
+											<a href="my_dashboard_all_notifications.html" class="view-all">View All Notifications</a>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<div class="account order-1 dropdown">
+								<a href="#" class="account-link dropdown-toggle-no-caret" role="button" data-toggle="dropdown">
+									<div class="user-dp"><div class="img"></div></div>
+									<span>Hi! Muhammad</span>
+									<i class="fas fa-angle-down"></i>
+								</a>
+								<div class="dropdown-menu account-dropdown dropdown-menu-right">
+									<a class="link-item" href="my_dashboard_about.html">Profile</a>
+									<a class="link-item" href="#">Example</a>
+									<a class="link-item" href="#">Example</a>
+									<a class="link-item" href="#">Example</a>
+									<a class="link-item" href="my_dashboard_setting_info.html">Settings</a>
+									<a class="link-item" href="login.html">Logout</a>
+								</div>
+							</div>
+						</nav>
+						<div class="overlay"></div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Header End -->
+		<!-- Body Start -->	
+		<main class="dashboard-mp">	
+			<div class="dash-todo-thumbnail-area1">
+				<div class="todo-thumb1 dash-bg-image1 dash-bg-overlay" style="background-image:url(images/find-peoples/bg-1.jpg);"></div>
+				<div class="dash-todo-header1">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 col-md-12">							
+								<div class="my-profile-dash">
+									<div class="my-dp-dash">
+										<div class="img"></div>
+									</div>									
+								</div>														
+							</div>																		
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="dash-dts">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+							<div class="event-title">
+								<div class="my-dash-dt">
+									<h3>Muhammad Rayhan</h3>
+									<span>Member since August 2020</span>									
+									<span>Web Developer</span>								
+								</div>								
+							</div>
+						</div>
+                        <div class="col-xl-5 col-lg-6 col-md-8 col-sm-12">
+							<ul class="right-details main-ft">
+								<li class="main-features">
+									<div class="main-feature">
+                                        <div>
+                                            <i class="fas fa-flask"></i>
+                                        </div>
+										<div class="ft-txt"> Team Chemistry </div>
+								        <div class="ft-numbr one">92%</div>
+									</div>
+								</li>
+								<li class="main-features">
+									<div class="main-feature">
+                                        <div class="mid-ft">
+                                            <i class="fas fa-medal"></i>
+                                        </div>
+										<div class="ft-txt"> Ranking</div>
+                                        <div class="ft-numbr two">153</div>
+									</div>
+								</li>	
+                                <li class="main-features">
+									<div class="main-feature">
+                                        <div >
+                                            <i class="fas fa-trophy"></i> 
+                                        </div>
+										<div class="ft-txt"> Achievments </div>
+                                        <div class="ft-numbr three">2</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xl-3 col-lg-6 col-md-4 col-sm-12 offset-lg-6 offset-xl-0">
+							<ul class="right-details">
+								<li class="sub-features">
+									<div class="all-dis-evnt">
+										<div class="dscun-txt">Score</div>
+										<div class="dscun-numbr">4.5</div>																	
+									</div>
+								</li>
+								<li class="sub-features">
+									<div class="all-dis-evnt">
+										<div class="dscun-txt">Experience</div>
+										<div class="dscun-numbr">+3 Years</div>																	
+									</div>
+								</li>								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="dash-tab-links">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12">
+							<ul class="nav nav-tabs">
+								<li class="nav-item">
+									<a class="nav-link" href="my_dashboard_activity.html">Activity</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="my_dashboard_about.html">About</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="my_dashboard_followers.html">Followers <span class="badge badge-alrts">20</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="my_dashboard_following.html">Following <span class="badge badge-alrts">20</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="my_dashboard_messages.html">Messages <span class="badge badge-alrts">2</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" href="my_dashboard_booked_events.html">Booked Events</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="my_dashboard_history.html">History</a>
+								</li>
+							</ul>
+						</div>																		
+					</div>
+					<div class="booked-events mb-20">
+						<div class="row">
+							<div class="col-lg-12 col-md-12">
+								<div class="checkout-heading">
+									<h2>Booked Events</h2>								
+								</div>
+								<div class="table-responsive table-brder">
+									<table class="table">
+										<thead>
+											<tr>
+												<th scope="col" style="font-size:16px; font-weight:500;">Event</th>
+												<th scope="col" style="font-size:16px; font-weight:500;">Tickets Qty</th>
+												<th scope="col" style="font-size:16px; font-weight:500;">Category</th>
+												<th scope="col" style="font-size:16px; font-weight:500;">Bill Slip</th>
+												<th scope="col" style="font-size:16px; font-weight:500;">Action</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<th scope="row">
+													<div class="checkout-dt">
+														<div class="check-img">
+															<div class="img"></div>
+														</div>
+														<div class="evnt-dt-ckot">
+															<div class="chk-heading">Event Title Goes Here</div>
+															<div class="ctgory">Co-working space</div>
+															<div class="date-tme">Thursday, 23 Jan 2020 | 2.00 PM to 9.00 PM</div>
+															<div class="lctn-dt"><i class="fas fa-map-marker-alt"></i> 
+                                                                <a href="https://goo.gl/maps/ugniB5GiVYpsYoRv8">Cairo</a>
+                                                            </div>
+														</div>
+													</div>
+												</th>
+												<td>1</td>
+												<td>VIP</td>
+												<td><a href="#">Download</a></td>
+												<td><a href="#">Cancel</a></td>
+											</tr>
+											<tr>
+												<th scope="row">
+													<div class="checkout-dt">
+														<div class="check-img">
+															<div class="img"></div>
+														</div>
+														<div class="evnt-dt-ckot">
+															<div class="chk-heading">Event Title Goes Here</div>
+															<div class="ctgory">Co-working space</div>
+															<div class="date-tme">Monday, 10 Feb 2020 | 2.00 PM to 9.00 PM</div>
+															<div class="lctn-dt"><i class="fas fa-map-marker-alt"></i>
+                                                                <a href="https://goo.gl/maps/ugniB5GiVYpsYoRv8">Cairo</a>
+                                                            </div>
+														</div>
+													</div>
+												</th>
+												<td>1</td>
+												<td>VIP</td>
+												<td><a href="#">Download</a></td>
+												<td><a href="#">Cancel</a></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>						
+							</div>											
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!-- Body End -->			
+		<!-- Footer Start -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-12">
+						<div class="footer-left">
+							<ul>
+								<li><a href="privacy_policy.html">Privacy</a></li>
+								<li><a href="term_conditions.html">Term and Conditions</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="contact_us.html">Contact Us</a></li>								
+							</ul>
+						</div>
+					</div>					
+					<div class="col-lg-6 col-md-12">
+						<div class="footer-right">
+							<ul class="copyright-text">
+								<li> <div class="ftr-1"><a href="index.html"><img src="images/logo-black.png" alt=""></a><i class="far fa-copyright"></i> 2019 EnterViews by <a href="#">EGYITOR</a>. All Rights Reserved.</div></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer End -->	
+		<!-- Scripts js -->	
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skills-search.js"></script>
+		<script src="js/jquery.nice-select.js"></script>
+		<script src="js/datepicker.min.js"></script>
+		<script src="js/i18n/datepicker.en.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="vendor/OwlCarousel/owl.carousel.js"></script>		
+		<script src="js/custom1.js"></script>
+		
+	</body>
+	
+</html>
